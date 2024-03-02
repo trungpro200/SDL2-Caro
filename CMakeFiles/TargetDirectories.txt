@@ -1,0 +1,3 @@
+C:/Users/Admin/Desktop/Project/SLD2-Caro/CMakeFiles/SDL_Caro.dir
+C:/Users/Admin/Desktop/Project/SLD2-Caro/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/Project/SLD2-Caro/CMakeFiles/rebuild_cache.dir
