@@ -3,18 +3,21 @@
 
 #include <DataStructs.h>
 #include <vector>
+#include <cstring>
 
 /* code */
 
 //Game's object
 class Button{
 public:
-    Rect buttonPos;
+    SDL_Rect *buttonPos;
+    SDL_Renderer *Buthl;
+    SDL_Renderer *But;
 
-    Button(Rect Pos);
+    Button(SDL_Rect *Pos, const char* label);
     
     void draw(bool hl = false);
-
+    bool onHover(Pos2D pos);
 };
 
 class Scene{
@@ -33,7 +36,7 @@ public:
 
     //Rendering
     virtual void init();
-    virtual void renderButtons();
+    void renderButtons();
 };
 
 //Scenes

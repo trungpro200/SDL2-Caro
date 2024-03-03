@@ -14,7 +14,7 @@ int SDL_main(int argc, char *args[])
 
     bool running = true;
     SDL_Event event;
-
+ 
     while (running)
     {
         while (SDL_PollEvent(&event) != 0)

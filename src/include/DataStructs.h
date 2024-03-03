@@ -19,13 +19,6 @@
 typedef struct {
     int x;
     int y;
-    int w;
-    int h;
-} Rect;
-
-typedef struct {
-    int x;
-    int y;
 } Pos2D;
 
 typedef enum {
